@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PDF CRISTOBALIN</title>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<style type="text/css">
+		body{
+			width: 1200px;
+			margin: 0;
+			padding: 0px;
+			font-size: 16px;
+			line-height: 24px;
+			font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+			color: rgb(33,33,33);
+		}
+		.report-header{
+			background: rgb(178,230,212);
+			color: rgb(102,102,102);
+			padding: 15px;
+			padding-left: 200px;
+			box-sizing: border-box;
+			display: block;
+			position: relative;
+		}
+		.report-header .logo{
+			position: absolute;
+			top: 40px;
+			left: 15px;
+			width: 150px;
+		}
+		.report-footer{
+			background: rgb(178,230,212);
+			color: rgb(102,102,102);
+			padding: 15px;
+			box-sizing: border-box;
+			display: block;
+			position: relative;
+		}
+		.report-body{
+			width: 70%;
+			display: inline-block;
+			position: relative;
+			padding: 15px;
+			box-sizing: border-box;
+			vertical-align: top;
+		}
+	</style>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<div class="report-header">
+		<img src="logo.png" class="logo">
+		<h3>{{title}}</h3>
+		<p>{{date}}</p>
+	</div>
+	<div class="report-body">
+		<div class="info">
+			<p>Name: {{name}}</p>
+			<p>LastName: {{lastname}}</p>
+			<p>Age: {{age}}</p>
+			<p>Birthdate: {{birthdate}}</p>
+		</div>
+		<div class="obs">
+			<p>Phrase: {{phrase}}</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+				One of three columns
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+			<div class="col-sm">
+				One of three columns
+			</div>
+		</div>
+	</div>
+	<div class="report-footer">
+		----------------------------------------------------    CristobalinPDFs   ------------------------------------------------------
+	</div>
+</body>
+</html>
