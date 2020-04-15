@@ -14,7 +14,7 @@ class Pdf {
       birthdate: '22/10',
       phrase: 'Chauchas',
     };
-    const templateHtml = fs.readFileSync(path.join(process.cwd(), 'template.html'), 'utf8');
+    const templateHtml = fs.readFileSync(path.join(process.cwd(), 'templates/template.html'), 'utf8');
     const template = handlebars.compile(templateHtml);
     const html = template(data);
 
